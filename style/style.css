@@ -105,8 +105,10 @@ main{
 }
 .main-box .top{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
+  margin: 10px 10px;
+  
 }
 .bottom{
   width: 100%;
@@ -115,7 +117,7 @@ main{
 @media only screen and (max-width:840px){
   .main-box .top{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-between;
   }
   .top .box{
